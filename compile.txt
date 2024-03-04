@@ -1,0 +1,3 @@
+g++ -shared -o testlib.dll testlib.cpp -Wl,--out-implib,libtestlib.a
+
+g++ -o injector.exe injector.cpp
