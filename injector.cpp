@@ -6,7 +6,7 @@ int main()
     // path to our dll
     LPCSTR DllPath = "C:\\Users\\Fatal\\Destop\\Project\\dll_injector\\testlib.dll";
 
-    INT process_id = 14367;
+    INT process_id = 33700;
     // Open a handle to target process
     HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, process_id);
 
